@@ -1,4 +1,4 @@
-body{
+body {
     font-family:'Raleway', sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -6,13 +6,12 @@ body{
     line-height: 100%;
     letter-spacing: 0%;  
 }
-.header{
+.header {
     width: 1100px;
     height: 293px;
     display: flex;
-    
 }
-.list_nav{
+.list_nav {
     margin-left: 50px;
     margin-top: 133px;
     display: flex;
@@ -22,27 +21,26 @@ body{
 }
 
 .list_nav li:first-child {
-  list-style-type: none;
-  padding-left: 0;
+    list-style-type: none;
+    padding-left: 0;
 }
 
 .underlane_decor {
-  border-bottom: 1px solid;
+    border-bottom: 1px solid;
 }
 
-.nav_link:active{
-  border-bottom: 0px;  
+.nav_link:active {
+    border-bottom: 0px;  
 }
 
-.logo{
+.logo {
     width: 148px;
     height: 105px;
     margin-top: 92px;
     margin-left: 36.5px;
-
 }
 
-.address{
+.address {
     width: 240px;
     height: 98px;
     max-width: 240px;
@@ -53,26 +51,26 @@ body{
     line-height: 24px;      
 }
 
-.cover{
+.cover {
     position: relative;
     min-height: 757px;
 }
 
-.cover_background{
+.cover_background {
     position: absolute;
     min-height: 757px;
     z-index: -1;
     object-fit: cover; 
-    object-position: center center;
+    object-position: center;
 }
-.overlay{
+.overlay {
     position: absolute;
     height: 100%;
     width: 100%;
     background-color: rgb(0, 0, 0, 0.5);
     z-index: 0;
 }
-.title{
+.title {
     position: absolute;
     display: block;
     top: 165px;
@@ -88,20 +86,20 @@ body{
     color: #fff;
 }
 
-.ono,.tebe,.nado{
+.ono,.tebe,.nado {
     position: absolute;
     display: block;
 }
-.tebe{
+.tebe {
     top: 135px;
     left: 330px;
 }
-.nado{
+.nado {
     top:270px;
     left: 613px;
 }
 
-.bottom_bar{
+.bottom_bar {
     display: flex;
     position: absolute;
     width: 1000px;
@@ -110,7 +108,7 @@ body{
     justify-content: space-between;
 }
 
-.bottom_bar_text{
+.bottom_bar_text {
     font-family: 'Raleway',sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -122,7 +120,7 @@ body{
     word-spacing: 19px;
     align-self: center;
 }
-.bottom_bar_button{
+.bottom_bar_button {
     margin: 0;
     padding: 0;
     height: 51px;
@@ -139,24 +137,24 @@ body{
     text-align: center;
     text-transform: uppercase;
 }
-.cards{
+.cards {
     margin-left: 24px;
     margin-right: 24px;
     margin-top: 180px;
 }
-.card_list{
+.card_list {
     display: flex;
     gap: 25px;
     list-style-type: none;
 }
-.card{
+.card {
     position: relative;
     width: 334px;
     min-height: 596px;
     margin-bottom: 30px;
 }
 
-.lots{
+.lots {
     margin-left: 40px;
     margin-bottom: 27px;
     font-family: 'Raleway', sans-serif;
@@ -169,7 +167,7 @@ body{
 
 }
 
-.card_backgrond{
+.card_backgrond {
     position: absolute;
     height: 100%;
     z-index: -1;
@@ -177,14 +175,14 @@ body{
     object-position: center center;
 }
 
-.card_content{
+.card_content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     position: absolute;
     height: 100%;
 }
-.card_title{
+.card_title {
     margin-top: 48px;
     margin-left: 40px;
     margin-right: 40px;
@@ -199,7 +197,7 @@ body{
     text-decoration-style: solid;
     color: white;
 }
-.card_text{
+.card_text {
     margin-bottom: 48px;
     margin-left: 40px;
     margin-right: 40px;
@@ -211,7 +209,7 @@ body{
     letter-spacing: 0%;
     color: white;
 }
-.card_more{
+.card_more {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -221,7 +219,7 @@ body{
     margin-left: 40px;      
 }
 
-.about{
+.about {
     margin-left: 24px;
     margin-right: 24px;
     margin-top: 120px;
@@ -234,7 +232,7 @@ body{
     ". about_text_2";
 
 }
-.about_logo{
+.about_logo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -247,12 +245,12 @@ body{
     grid-area: about_logo;
    
 }
-.about_logo-image{
+.about_logo-image {
     width: 148px;
     height: 114px;
     
 }
-.about_title{
+.about_title {
     grid-area: about_title;
     align-self: center;
     font-family: 'Raleway',sans-serif;
@@ -262,9 +260,8 @@ body{
     line-height: 100%;
     letter-spacing: 0%;
     text-transform: uppercase;
-
 }
-.about_text_1{
+.about_text_1 {
     font-family: 'Raleway',sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -273,7 +270,7 @@ body{
     letter-spacing: 0%;
     grid-area: about_text_1;
 }
-.about_text_2{
+.about_text_2 {
     font-family: 'Raleway',sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -283,7 +280,7 @@ body{
     grid-area: about_text_2;
 }
 
-.footer{
+.footer {
     margin-top: 180px;
     min-height: 180px;
     width: 100%;
@@ -294,29 +291,29 @@ body{
     align-items: start;
 }
 
-.footer_menu-list{
+.footer_menu-list {
     list-style-type: none;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.footer_social-list{
+.footer_social-list {
     list-style-type: none;
     display: flex;
     gap: 48px;
 }
 
-.footer_social-icon{
+.footer_social-icon {
     width: 48px;
     height: 48px;
 }
 
-.address_footer{
+.address_footer {
     width: 265px;
 }
 
-.footer_menu-link:active{
+.footer_menu-link:active {
     border-bottom: 0px solid;
 }
 
