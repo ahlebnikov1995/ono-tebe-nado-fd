@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="fonts/fonts.css" />
-  <link rel="stylesheet" href="styles/global.css" />
-  <link rel="stylesheet" href="styles/style.css" />
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="fonts/fonts.css"/>
+  <link rel="stylesheet" href="styles/global.css"/>
+  <link rel="stylesheet" href="styles/style.css"/>
   <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
 </head>
 <body>
@@ -39,52 +39,47 @@
   </header>
   <main> 
     <section class="cover" id="main">
-        <img
-          src="images/cover.jpg"
-          alt="задний фон заголовка"
-          class="cover_background"
-        />
         <div class="overlay"></div>
         <h1 class="title">
           <span class="title_text">оно</span> 
-          <span class="title_text" id="tebe">тебе</span>
-          <span class="title_text" id="nado">надо</span>
+          <span class="title_text title_text_center">тебе</span>
+          <span class="title_text title_text_bottom">надо</span>
         </h1>
         <div class="bottom_bar">
           <p class="bottom_bar_text">аукцион вещей, в которые никто не верил</p>
           <button type="button" class="bottom_bar_button">сделать ставку</button>
         </div>
     </section>
-    <section class="cards" >
+    <section class="cards" id="lots">
       <h2 class="lots_title">лоты</h2>
       <ul class="card_list">
-        <a href="#0">
-          <li class="card" id="card-lot-01">
-            <div class="overlay"></div>
+       <li class="card" style="background-image: url('./images/card-lot-01.jpg')">
+          <div class="overlay"></div>
+          <a href="#0">
             <article class="card_content">
               <h3 class="card_title">Фильм режиссёра, который бросил киношколу</h3> 
               <p class="card_text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
             </article>
-          </li>
-        </a>
-        <a href="#0">
-        <li class="card" id="card-lot-02">
+          </a>
+        </li>
+        <li class="card" style="background-image: url('./images/card-lot-02.jpg')">
             <div class="overlay"></div>
+            <a href="#0">
             <article class="card_content">
               <h3 class="card_title">Книга, где описан один скучный день из жизни рекламного агента</h3> 
               <p class="card_text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
             </article>
+            </a>
         </li>
-        </a>
-        <a href="#0">
-          <li class="card" id="card-lot-03">
-            <div class="overlay"></div>
+        <li class="card" style="background-image: url('./images/card-lot-03.jpg')">
+          <div class="overlay"></div>
+          <a href="#0">
             <article class="card_content">
               <h3 class="card_title">Картина, которую повторит даже 5-летний сын маминой подруги</h3> 
               <p class="card_text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
-            </article>
-          </li>
-        </a>
+          </article>
+          </a>
+        </li>
       </ul>  
       <a href="#0" class="underlane_decor card_more">посмотреть больше</a>
     </section>
@@ -93,8 +88,8 @@
           <img class="about_logo-image" src="images/logo-white.svg" alt="Логотип">
         </div>
         <h2 class="about_title">Об аукционе</h2>
-        <p class="about_text" style="grid-area: about_text_1;">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
-        <p class="about_text" style="grid-area: about_text_2">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми.</p>
+        <p class="about_text about_text_top">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
+        <p class="about_text about_text_bottom">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми.</p>
     </section>
   </main> 
   <footer class="footer">
@@ -131,6 +126,6 @@
           <a href="#0" class="footer_social-link"><img src="images/pinterest.svg" alt="логотип пинтерест" class="footer_social-icon"></a>
         </li>
       </ul>
-  <footer>
+  </footer>
 </body>
 </html>
